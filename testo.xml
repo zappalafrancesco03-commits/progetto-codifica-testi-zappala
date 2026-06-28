@@ -78,6 +78,44 @@
                         </monogr>
                     </biblStruct>
                     
+                    <!-- Fonte bibliografica della sezione Bibliografia -->
+                    <biblStruct xml:id="bibl_bibliografia">
+                        <analytic>
+                            <title level="a">BIBLIOGRAFIA</title>
+                            <author cert="unknown">Non menzionato</author>
+                        </analytic>
+                        <monogr>
+                            <title level="j">La Rassegna settimanale di politica, scienze, lettere ed arti</title>
+                            <imprint>
+                                <publisher>Casa editrice Barbera</publisher>
+                                <pubPlace>Roma</pubPlace>
+                                <date when="1881-07-31">31 luglio 1881</date>
+                                <biblScope unit="volume">8</biblScope>
+                                <biblScope unit="issue">187</biblScope>
+                                <biblScope unit="page" from="80" to="80">80</biblScope>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                    
+                    <!-- Fonte bibliografica della sezione Notizie -->
+                    <biblStruct xml:id="bibl_notizie">
+                        <analytic>
+                            <title level="a">NOTIZIE</title>
+                            <author cert="unknown">Non menzionato</author>
+                        </analytic>
+                        <monogr>
+                            <title level="j">La Rassegna settimanale di politica, scienze, lettere ed arti</title>
+                            <imprint>
+                                <publisher>Casa editrice Barbera</publisher>
+                                <pubPlace>Roma</pubPlace>
+                                <date when="1881-07-31">31 luglio 1881</date>
+                                <biblScope unit="volume">8</biblScope>
+                                <biblScope unit="issue">187</biblScope>
+                                <biblScope unit="page" from="80" to="80">80</biblScope>
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+                    
                 </listBibl>
             </sourceDesc>
             
@@ -168,6 +206,98 @@
                     <note>Citato in relazione alla raccolta delle iscrizioni romane.</note>
                     <idno type="URI">https://www.wikidata.org/wiki/Q25351</idno>
                 </person>
+                    
+                    <person xml:id="antonio_rotti">
+                        <persName>
+                            <forename>Antonio</forename>
+                            <surname>Rotti</surname>
+                        </persName>
+                        <occupation>Autore scolastico</occupation>
+                        <note>Autore dell’opera Elementi di fisica recensita nella sezione Bibliografia.</note>
+                    </person>
+                    
+                    <person xml:id="gauss">
+                        <persName>
+                            <forename>Carl</forename>
+                            <forename>Friedrich</forename>
+                            <surname>Gauss</surname>
+                        </persName>
+                        <occupation>Matematico e fisico</occupation>
+                        <note>Citato in relazione alla teoria degli strumenti ottici.</note>
+                    </person>
+                    
+                    <person xml:id="isidoro_del_lungo">
+                        <persName>
+                            <forename>Isidoro</forename>
+                            <surname>Del Lungo</surname>
+                        </persName>
+                        <occupation>Letterato e storico italiano</occupation>
+                        <note>Citato nella sezione Notizie per alcune pubblicazioni storiche e letterarie.</note>
+                    </person>
+                    
+                    <person xml:id="dante">
+                        <persName>
+                            <forename>Dante</forename>
+                            <surname>Alighieri</surname>
+                        </persName>
+                        <occupation>Poeta italiano</occupation>
+                        <note>Citato nel titolo del discorso Dell’esilio di Dante.</note>
+                    </person>
+                    
+                    <person xml:id="georges_perrot">
+                        <persName>
+                            <forename>Georges</forename>
+                            <surname>Perrot</surname>
+                        </persName>
+                        <occupation>Storico e archeologo francese</occupation>
+                        <note>Citato come redattore dell’opera Histoire de l’art dans l’antiquité.</note>
+                    </person>
+                    
+                    <person xml:id="charles_chipiez">
+                        <persName>
+                            <forename>Charles</forename>
+                            <surname>Chipiez</surname>
+                        </persName>
+                        <occupation>Architetto e storico dell’arte francese</occupation>
+                        <note>Citato come responsabile della parte artistica dell’opera Histoire de l’art dans l’antiquité.</note>
+                    </person>
+                    
+                    <person xml:id="talleyrand">
+                        <persName>
+                            <forename>Charles-Maurice</forename>
+                            <surname>de Talleyrand-Périgord</surname>
+                        </persName>
+                        <occupation>Diplomatico e politico francese</occupation>
+                        <note>Citato nel titolo della corrispondenza annunciata nella sezione Notizie.</note>
+                    </person>
+                    
+                    <person xml:id="louis_xviii">
+                        <persName>
+                            <forename>Louis</forename>
+                            <surname>XVIII</surname>
+                        </persName>
+                        <occupation>Re di Francia</occupation>
+                        <note>Citato nel titolo della corrispondenza annunciata nella sezione Notizie.</note>
+                    </person>
+                    
+                    <person xml:id="g_pallain">
+                        <persName>
+                            <forename>G.</forename>
+                            <surname>Pallain</surname>
+                        </persName>
+                        <occupation>Curatore</occupation>
+                        <note>Citato come autore della prefazione e dei chiarimenti alla corrispondenza di Talleyrand e Louis XVIII.</note>
+                    </person>
+                    
+                    <person xml:id="bluntschli">
+                        <persName>
+                            <forename>Johann</forename>
+                            <forename>Caspar</forename>
+                            <surname>Bluntschli</surname>
+                        </persName>
+                        <occupation>Giurista</occupation>
+                        <note>Citato nella sezione Notizie per le traduzioni delle sue opere.</note>
+                    </person>
             </listPerson>
             <listOrg>
                 <org xml:id="commissione_marina_mercantile">
@@ -198,6 +328,34 @@
                     <orgName>Congresso di Camogli</orgName>
                     <note>Congresso citato nel dibattito sui premi alle costruzioni e alla navigazione.</note>
                 </org>
+                <org xml:id="successori_le_monnier">
+                        <orgName>Successori Le Monnier</orgName>
+                        <note>Casa editrice fiorentina citata nella sezione Bibliografia e nella sezione Notizie.</note>
+                </org>
+                <org xml:id="circolo_filologico_firenze">
+                        <orgName>Circolo filologico di Firenze</orgName>
+                        <note>Istituzione culturale citata in relazione al discorso sull’esilio di Dante.</note>
+                </org>
+                <org xml:id="casa_hachette">
+                        <orgName>Casa Hachette</orgName>
+                        <note>Casa editrice francese citata nella sezione Notizie.</note>
+                </org>
+                <org xml:id="institut_de_france">
+                        <orgName>Istituto</orgName>
+                        <note>Istituzione citata in relazione a Georges Perrot.</note>
+                </org>
+                <org xml:id="editori_plon">
+                        <orgName>Editori Plon</orgName>
+                        <note>Casa editrice citata nella sezione Notizie.</note>
+                </org>  
+                <org xml:id="governo_cinese">
+                        <orgName>Governo chinese</orgName>
+                        <note>Istituzione citata in relazione alla traduzione dell’opera di Bluntschli.</note>
+                </org>
+                <org xml:id="academy">
+                        <orgName>Academy</orgName>
+                        <note>Fonte indicata tra parentesi alla fine della sezione Notizie.</note>
+                    </org>
             </listOrg>
             </particDesc>
             
@@ -302,6 +460,22 @@
                     <place xml:id="salerno">
                         <placeName>Salerno</placeName>
                         <note>Provincia citata nel confronto con gli abitanti della costiera.</note>
+                    </place>
+                    <place xml:id="roma">
+                        <placeName>Roma</placeName>
+                        <note>Luogo di pubblicazione della rivista La Rassegna Settimanale.</note>
+                    </place>
+                    <place xml:id="firenze">
+                        <placeName>Firenze</placeName>
+                        <note>Città citata come luogo di pubblicazione dell’opera di Antonio Rotti e sede del Circolo filologico.</note>
+                    </place>
+                    <place xml:id="heidelberg">
+                        <placeName>Heidelberg</placeName>
+                        <note>Città tedesca citata in relazione al prof. Bluntschli.</note>
+                    </place>
+                    <place xml:id="vienna">
+                        <placeName>Vienne</placeName>
+                        <note>Nome francese di Vienna, citata nel titolo della corrispondenza relativa al congresso di Vienna.</note>
                     </place>
                 </listPlace>
             </settingDesc>
@@ -445,6 +619,48 @@
             <zone xml:id="volturno_p10b_zone"
                   ulx="815" uly="100"
                   lrx="1498" lry="680"/>
+        </surface>
+        
+        <surface xml:id="bibliografia_notizie1">
+            <graphic url="articoli/Bibliografia-notizie.png"
+                     width="1520.666666px"
+                     height="2205.666666px"/>
+            
+            <zone xml:id="bibliografia_titolo_zone"
+                  ulx="75" uly="1262"
+                  lrx="778" lry="1358"/>
+            
+            <zone xml:id="bibliografia_p1a_zone"
+                  ulx="75" uly="1358"
+                  lrx="778" lry="2018"/>
+            
+            <zone xml:id="bibliografia_p1b_zone"
+                  ulx="786" uly="88"
+                  lrx="1468" lry="149"/>
+            
+            <zone xml:id="bibliografia_p2_zone"
+                  ulx="786" uly="148"
+                  lrx="1468" lry="468"/>
+            
+            <zone xml:id="bibliografia_p3_zone"
+                  ulx="786" uly="468"
+                  lrx="1468" lry="782"/>
+            
+            <zone xml:id="bibliografia_p4_zone"
+                  ulx="786" uly="781"
+                  lrx="1468" lry="1125"/>
+            
+            <zone xml:id="bibliografia_p5_zone"
+                  ulx="786" uly="1125"
+                  lrx="1468" lry="1308"/>
+            
+            <zone xml:id="notizie_titolo_zone"
+                  ulx="786" uly="1308"
+                  lrx="1467" lry="1356"/>
+
+            <zone xml:id="notizie_p1_zone"
+                  ulx="786" uly="1355"
+                  lrx="1468" lry="1890"/>
         </surface>
         
     </facsimile>
@@ -648,7 +864,7 @@
                         <pb n="83" facs="#volturno1"/>
                         <head facs="#volturno_titolo_zone">UNA GITA AL VOLTURNO
                         </head>
-                        <byline facs="#volturno_titolo_zone">CORRISPONDENZA DA NAPOLI</byline>
+                        <byline facs="#volturno_titolo_zone">CORRISPONDENZA DA <placeName ref="#napoli">NAPOLI</placeName></byline>
                         
                         <p xml:id="volturno_p1" facs="#volturno_p1_zone">
                             <lb n="1"/>Partendo da <placeName ref="#napoli">Napoli</placeName> di buon mattino e con buoni cavalli
@@ -868,6 +1084,155 @@
                     </div>
                 </body>
             </text>
+            
+            <text xml:id="bibliografia_notizie">
+                <body>
+                    
+                    <div type="article" xml:id="articolo_bibliografia" source="#bibl_bibliografia">
+                        
+                        <pb n="80" facs="#bibliografia_notizie1"/>
+                        
+                        <head facs="#bibliografia_titolo_zone">BIBLIOGRAFIA</head>
+                        
+                        <byline facs="#bibliografia_titolo_zone">
+                            <persName ref="#antonio_rotti">ANTONIO ROTTI</persName>,
+                            <title level="m">Elementi di fisica. Libro di testo per i licei. Volume terzo.</title>
+                            — <placeName ref="#firenze">Firenze</placeName>,
+                            <orgName ref="#successori_le_monnier">Successori Le Monnier</orgName>,
+                            <date when="1881">1881</date>.
+                        </byline>
+                        
+                        <p xml:id="bibliografia_p1" facs="#bibliografia_p1a_zone #bibliografia_p1b_zone">
+                            <lb n="1"/>Sebbene in generale l’ordine e la scelta della materia
+                            <lb n="2"/>siano eccellenti, l’esposizione spesso chiara ed appropriata,
+                            <lb n="3"/>pure, anche qui, come nel volume precedente, l’A., con la
+                            <lb n="4"/>buona intenzione di non esser prolisso, ha talvolta uno
+                            <lb n="5"/>stile così conciso, che non è adatto menomamente all’indole
+                            <lb n="6"/>di un trattato elementare. È molto dubbio che l’insegnante
+                            <lb n="7"/>liceale trovi il tempo di spiegare nella scuola tutto ciò che
+                            <lb n="8"/>è accennato nel testo; ma quasi certo che spesso si tro-
+                            <lb n="9" break="no"/>verebbero impacciati assai quei giovanetti, che volessero
+                            <lb n="10"/>completarne lo studio senz’altro aiuto. E infatti lo stesso A.
+                            <lb n="11"/>non tiene sempre un’egual misura nelle sue dimostrazioni.
+                            <lb n="12"/>Talvolta, per meglio spiegare un fenomeno, ne dà esempi,
+                            <lb n="13"/>entra in minuti particolari, introduce similitudini opportu-
+                            <lb n="14" break="no"/>nissime, e per tal modo riesce chiarissimo, pur conservando
+                            <lb n="15"/>sempre il pregio della brevità; e, mentre possiede questa
+                            <lb n="16"/>bella dote, non gli rincresce altre volte troncare a mezzo il
+                            <lb n="17"/>discorso e abbandonare il lettore davanti ad una proposi-
+                            <lb n="18" break="no"/>zione troppo lunga per essere un problema, e troppo breve
+                            <lb n="19"/>per esserne la soluzione; come fa, per esempio, alla fine
+                            <lb n="20"/>del libro, dove un periodo di più non avrebbe fatto alcun
+                            <lb n="21"/>danno. Qua e là sembra che l’A. voglia far economia di una
+                            <lb n="22"/>parola, d’un aggettivo soltanto, e, in tali casi, chi non è
+                            <lb n="23"/>già pratico della materia o inciampa o sbaglia; in questo 
+                            <cb n="2" facs="#bibliografia_notizie1"/>
+                            <lb n="24"/>libro, chi ne abbia bisogno, dovrà spesso farsi spiegare il si-
+                            <lb n="25" break="no"/>gnificato di un vocabolo, d’una frase, d’una figura.
+                        </p>
+                        <p xml:id="bibliografia_p2" facs="#bibliografia_p2_zone">
+                            <lb n="26"/>Un capitolo poi che non ci sembra riuscito è il XXII
+                            <lb n="27"/>sulla formazione e propagazione delle onde. Il compito dell’A.
+                            <lb n="28"/>non poteva essere altro che di dare alla dottrina delle on-
+                            <lb n="29" break="no"/>dulazioni una forma elementare, ma ciò <choice><orig>dovea</orig><reg>doveva</reg></choice> farsi in guisa,
+                            <lb n="30"/>che il lettore ne avesse poi un concetto chiaro e completo.
+                            <lb n="31"/>L’argomento era difficile, e crediamo che per raggiungere
+                            <lb n="32"/>l’intento bisognava ricorrere ad una esposizione molto più par-
+                            <lb n="33" break="no"/>ticolareggiata, a dimostrazioni tali da raffigurare i fenomeni
+                            <lb n="34"/>più materialmente, e non soltanto per mezzo di rappresen-
+                            <lb n="35" break="no"/>tazioni geometriche indirette, colle quali i giovani del liceo
+                            <lb n="36"/>hanno poca familiarità.
+                        </p>
+                        <p xml:id="bibliografia_p3" facs="#bibliografia_p3_zone">
+                            <lb n="37"/>Anche sul capitolo Rifrazione ci sarebbe a fare qual-
+                            <lb n="38" break="no"/>che appunto. L’A., che ebbe la buonissima idea di in-
+                            <lb n="39" break="no"/>trodurvi la teoria di <persName ref="#gauss">Gauss</persName> sugli strumenti ottici, non ha
+                            <lb n="40"/>saputo approfittarne. Dal momento ch’egli enuncia le pro-
+                            <lb n="41" break="no"/>prietà cardinali di un <term ref="#sistema_centrato">sistema centrato</term>, poteva benissimo
+                            <lb n="42"/>aggiungervi le regole per farne l’applicazione alle varie
+                            <lb n="43"/>forme di lenti, e quindi agli strumenti ottici ed all’occhio;
+                            <lb n="44"/>e con due parole si sarebbe giustificato anche il passaggio
+                            <lb n="45"/>dall’<term ref="#occhio_schematico">occhio schematico</term> all’<term ref="#occhio_ridotto">occhio ridotto</term>, che nel testo sem-
+                            <lb n="46" break="no"/>bra arbitrario. Le formule ordinarie delle lenti si potevano
+                            <lb n="47"/>dedurre come casi particolari dalle proprietà cardinali.
+                        </p>
+                        <p xml:id="bibliografia_p4" facs="#bibliografia_p4_zone">
+                            <lb n="48"/>Un’ultima osservazione ci permettiamo, che riguarda il
+                            <lb n="49"/>titolo dato alla parte IV. <choice><orig>Perchè</orig><reg>Perché</reg></choice> intitolare<title level="m">Del moto ondu-
+                            <lb n="50" break="no"/>latorio</title> la parte che tratta dei fenomeni sonori, e non quella
+                            <lb n="51"/>che si occupa della luce e delle radiazioni termiche?
+                            <lb n="52"/>Infine notiamo che anche solo alla prima lettura ci saltò
+                            <lb n="53"/>all’occhio più di una svista. A pag. 98, per esempio, il te-
+                            <lb n="54" break="no"/>sto non corrisponde esattamente alla figura, laddove dice:
+                            <lb n="55"/><quote>una sfera di vetro circondata dall’aria</quote>; a pag. 129, linea 11,
+                            <lb n="56"/>la parola <term ref="#presbite">presbite</term> presa come l’opposto di <term ref="#miope">miope</term> non s’ac-
+                            <lb n="57" break="no"/>corda colla nomenclatura adottata nel testo al parag. 636;
+                            <lb n="58"/>anche a pag. 187 bisogna invertire il significato della fra-
+                            <lb n="59" break="no"/>se: <quote>senza che la durata delle vibrazioni superi, ecc.</quote>
+                        </p>
+                        <p xml:id="bibliografia_p5" facs="#bibliografia_p5_zone">
+                            <lb n="60"/>Abbiamo insistito sui difetti. Ma non passeremo sotto
+                            <lb n="61"/>silenzio i pregi. Lodiamo la diligenza dell’A. nel far tesoro
+                            <lb n="62"/>di tutte le ultime e più importanti scoperte; ammiriamo la
+                            <lb n="63"/>maestria ch’egli dimostra talvolta nel presentare nettamente
+                            <lb n="64"/>le questioni più difficili e risolverle poi con poche parole e
+                            <lb n="65"/>colla massima evidenza.
+                        </p>
+                    </div>
+                    
+                    <div type="article" xml:id="articolo_notizie" source="#bibl_notizie">
+                        
+                        <head facs="#notizie_titolo_zone">NOTIZIE</head>
+                        
+                        <p xml:id="notizie_p1" facs="#notizie_p1_zone">
+                            <lb n="1"/>— Il prof. <persName ref="#isidoro_del_lungo">Isidoro Del Lungo</persName> ha pubblicato presso i
+                            <orgName ref="#successori_le_monnier">Successori Le
+                                <lb n="2"/>Monnier</orgName> il discorso,
+                            <title level="m">Dell’esilio di <persName ref="#dante">Dante</persName></title>, letto il
+                            <date when="1881-01-27">27 gennaio 1881</date> in
+                            <lb n="3"/>commemorazione del <date when="1302-01-27">27 gennaio 1302</date> al
+                            <orgName ref="#circolo_filologico_firenze">Circolo filologico di Firenze</orgName>,
+                            <lb n="4"/>con documenti.
+                            
+                            <lb n="5"/>— È annunziata la pubblicazione di una serie di
+                            <title level="m">Croniche fiorentine</title>,
+                            <lb n="6"/>per cura del prof. <persName ref="#isidoro_del_lungo">Isidoro Del Lungo</persName>; ed è già in preparazione un vo-
+                            <lb n="7" break="no"/>lume di <title level="m">Croniche domestiche</title>.
+                            
+                            <lb n="8"/>— La casa <orgName ref="#casa_hachette">Hachette</orgName> intraprende una nuova pubblicazione, una
+                            <title level="m" xml:lang="fr">Hi-
+                                <lb n="9" break="no"/>stoire de l’art dans l’antiquité</title>; la cui redazione è affidata al sig.
+                            <persName ref="#georges_perrot">Geor-
+                                <lb n="10" break="no"/>ges Perrot</persName>, dell’<orgName ref="#institut_de_france">Istituto</orgName>; della parte artistica è incaricato il sig.
+                            <persName ref="#charles_chipiez">Char-
+                                <lb n="11" break="no"/>les Chipiez</persName>. Saranno 5 o 6 grandi volumi in-8°.
+                            
+                            <lb n="12"/>— Dagli editori <orgName ref="#editori_plon">Plon</orgName> è annunziata la pubblicazione della
+                            <title level="m" xml:lang="fr">Corre-
+                                <lb n="13" break="no"/>spondance inédite du prince de <persName ref="#talleyrand">Talleyrand</persName> et du roi
+                                <persName ref="#louis_xviii">Louis XVIII</persName>, pen-
+                                <lb n="14" break="no"/>dant le congrès de <placeName ref="#vienna">Vienne</placeName></title>, con prefazione e chiarimenti di
+                            <persName ref="#g_pallain">G. Pallain</persName>.
+                            
+                            <lb n="15"/>— Il prof. <persName ref="#bluntschli">Bluntschli</persName>, di <placeName ref="#heidelberg">Heidelberg</placeName>, ricevette due doni di un ca-
+                            <lb n="16" break="no"/>rattere particolare. L’uno è la traduzione in
+                            <choice><orig>chinese</orig><reg>cinese</reg></choice> della sua opera
+                            <lb n="17"/><title level="m" xml:lang="de">Allgemeines Staatsrecht</title>, fatta a spese del
+                            <orgName ref="#governo_cinese">Governo <choice><orig>chinese</orig><reg>cinese</reg></choice></orgName>; l’altro la
+                            <lb n="18"/>traduzione in giapponese del suo lavoro
+                            <title level="m" xml:lang="de">Das moderne Völkerrecht als
+                            <lb n="19"/>Rechtsbuch</title>, fatta da un giapponese che studiò recentemente a
+                            <placeName ref="#heidelberg">Heidel-
+                            <lb n="20" break="no"/>berg</placeName>.
+                            
+                            <lb n="21"/>(<orgName ref="#academy">Academy</orgName>)
+                        </p>
+                        
+                    </div>
+                    
+                </body>
+            </text>
+
         </group>
         <back>
             <div type="glossary">
@@ -917,6 +1282,25 @@
                     </item>
                     <item>
                         <gloss xml:id="fitto">Canone o somma dovuta per l’uso di un terreno preso in affitto.</gloss>
+                    </item>
+                    <item>
+                        <gloss xml:id="sistema_centrato">Sistema ottico formato da superfici o lenti disposte intorno a uno stesso asse principale.</gloss>
+                    </item>
+                    
+                    <item>
+                        <gloss xml:id="occhio_schematico">Modello semplificato dell’occhio usato per studiarne il funzionamento ottico.</gloss>
+                    </item>
+                    
+                    <item>
+                        <gloss xml:id="occhio_ridotto">Modello ottico ancora più semplificato dell’occhio, usato per rappresentarne le proprietà principali.</gloss>
+                    </item>
+                    
+                    <item>
+                        <gloss xml:id="presbite">Persona affetta da presbiopia, difficoltà visiva nel mettere a fuoco oggetti vicini.</gloss>
+                    </item>
+                    
+                    <item>
+                        <gloss xml:id="miope">Persona affetta da miopia, difficoltà visiva nel vedere chiaramente gli oggetti lontani.</gloss>
                     </item>
                 </list>
             </div>
